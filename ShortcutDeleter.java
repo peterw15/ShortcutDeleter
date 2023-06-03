@@ -12,11 +12,11 @@ import java.util.Scanner;
 
 public class ShortcutDeleter {
     public static void main(String[] args) throws Exception {
-        if (doubleCheck()) {         //
-            deleteShortcuts();       // COMMENT OUT THESE THREE IF YOU DO NOT WANT TO BE ASKED CONFIRMATION EVERY TIME
-        }                            //
+        //if (doubleCheck()) {         //
+        //    deleteShortcuts();       // COMMENT OUT THESE THREE IF YOU DO NOT WANT TO BE ASKED CONFIRMATION EVERY TIME
+        //}                            //
 
-        // deleteShortcuts();        // THEN UNCOMMENT THIS LINE
+        deleteShortcuts();        // THEN UNCOMMENT THIS LINE
     }
 
     private static void deleteShortcuts () {
